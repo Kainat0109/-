@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #4b1f08;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px; /* ← ось тут збільшено висоту */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 30px;
+  background-color: #fef9f0;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.intro .text {
+  max-width: 50%;
+}
+
+.intro h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.intro h3 {
+  color: #777;
+  font-weight: normal;
+}
+
+.intro-img img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.breeds {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.social-icons a {
+  color: #333;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ff6600; /* Колір при наведенні */
+}
